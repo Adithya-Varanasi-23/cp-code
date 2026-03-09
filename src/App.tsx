@@ -10,7 +10,6 @@ import {
   ChevronRight,
   CheckCircle2,
   Copy,
-  Github,
   Award,
   Clock,
   Database,
@@ -292,13 +291,7 @@ export default function App() {
                   >
                     Start Analyzing <ChevronRight className="w-4 h-4" />
                   </button>
-                  <a
-                    href="https://github.com"
-                    target="_blank"
-                    className="glass-card px-6 py-3 font-semibold hover:bg-slate-800 transition-colors flex items-center gap-2"
-                  >
-                    <Github className="w-4 h-4" /> Github
-                  </a>
+
                 </div>
               </div>
 
