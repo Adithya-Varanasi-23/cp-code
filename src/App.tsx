@@ -22,8 +22,8 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-/** 🔑 GEMINI API KEY **/
-const API_KEY = "AIzaSyBBlkQ8nkC_PUWWn-NOMtr1XkNdrY5yCcY";
+/** 🔑 GEMINI API KEY — stored in .env (never committed to git) **/
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY as string;
 
 /** UTILS **/
 function cn(...inputs: ClassValue[]) {
